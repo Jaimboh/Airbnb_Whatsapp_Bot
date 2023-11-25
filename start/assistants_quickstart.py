@@ -116,10 +116,10 @@ def run_assistant(thread):
 # Test assistant
 # --------------------------------------------------------------
 
-new_message = generate_response("What's the check in time?", "123", "John")
+new_message = generate_response("What's the check in time?", "123", "Tom")
 
-new_message = generate_response("What's the pin for the lockbox?", "456", "Sarah")
+new_message = generate_response("What's the pin for the lockbox?", "456", "Mary")
 
-new_message = generate_response("What was my previous question?", "123", "John")
+new_message = generate_response("What was my previous question?", "123", "Tom")
 
-new_message = generate_response("What was my previous question?", "456", "Sarah")
+new_message = generate_response("What was my previous question?", "456", "Mary")
